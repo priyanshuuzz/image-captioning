@@ -19,7 +19,7 @@ dataset_images = r"C:\HUB\Image-captioning\Flickr8k_Dataset"
 def load_doc(filename):
     with open(filename, 'r') as file:
         return file.read()
-
+ 
 def all_img_captions(filename):
     file = load_doc(filename)
     captions = file.strip().split('\n')
